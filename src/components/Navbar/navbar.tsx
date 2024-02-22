@@ -1,6 +1,4 @@
 // Filename - "./components/Navbar.js
-
-import React from "react";
 import { Nav, NavLink, NavMenu } from "./NavbarElements";
 
 const Navbar = () => {
@@ -11,9 +9,19 @@ const Navbar = () => {
 					<NavLink to="/">
 						Home
 					</NavLink>
-					<NavLink to="/contact">
+					<NavLink to="/Meetups">
+						Meetups
+					</NavLink>
+					<NavLink to="/Featured">
+						Featured
+					</NavLink>
+					<NavLink to="/Team">
+						The Team
+					</NavLink>
+					<NavLink to="/Contact">
 						Contact Us
 					</NavLink>
+					
 				</NavMenu>
 			</Nav>
 		</>
